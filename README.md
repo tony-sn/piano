@@ -1,6 +1,6 @@
 # piano.github.io
 
-This web app will manipulate an onscreen midi piano by using javascript to produce correct notes entered from users. The site can be reached at (Ctrl + click): https://tony-sn.github.io/piano.github.io/
+This web app will manipulate an onscreen midi piano by using javascript to produce correct notes entered from users. The site can be reached at (Ctrl + click): https://tony-sn.github.io/piano/
 
 We start off our project by creating 2 eventListener, one when the key is pressed ('keydown') and the other is when the key is released ('keyup'). There is a slight problem, when we hold the key, it will fire the 'keydown' event as much as we hold it, to avoid this, we must apply a guard clause, indicated that if the event is repeat, we will **return** to exit the event.
 
