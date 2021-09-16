@@ -11,10 +11,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .piano {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .key {
@@ -42,4 +44,9 @@ body {
 
 .black.active {
   background-color: #333;
+}
+
+div.instruction span{
+ color: #fff;
+  margin: 10px 20px;
 }
