@@ -1,4 +1,4 @@
-# tonysn.com/piano
+# MIDI Piano
 
 This web app will manipulate an onscreen midi piano by using javascript to produce correct notes entered from users. The site can be reached at (Ctrl + click): [**Piano**](https://tonysn.com/piano/)
 
